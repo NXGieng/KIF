@@ -546,8 +546,6 @@ KIFUITestActor *_KIF_tester()
         }
         [self enterTextIntoCurrentFirstResponder:text fallbackView:view];
     }
-    
-    [self expectView:view toContainText:@""];
 }
 
 - (void)clearTextFromAndThenEnterText:(NSString *)text intoViewWithAccessibilityLabel:(NSString *)label
